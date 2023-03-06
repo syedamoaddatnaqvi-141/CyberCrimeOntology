@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#"
+     xml:base="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology"
+     xmlns:cco="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrime -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrime"/>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Brute Force Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Brute Force Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DDOS Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DDOS Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#External Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DOS Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DOS Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#External Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Dictionary Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Dictionary Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Espionage/Trespass Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Espionage/Trespass Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Internal Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#External Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#External Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrime"/>
+        <owl:disjointWith rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Internal Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Human Error/Failure Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Human Error/Failure Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Internal Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Information Extortion Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Information Extortion Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Internal Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Intellectual Property Rights Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Intellectual Property Rights Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Internal Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Internal Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Internal Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrime"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#External Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Phishing Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Phishing Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social Engineering Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Pre-texting Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Pre-texting Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social Engineering Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Sabotage/Vandalism Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Sabotage/Vandalism Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Internal Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Session Hijacking -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Session Hijacking">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#External Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social Engineering Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social Engineering Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#External Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Unauthorized Access Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Unauthorized Access Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Internal Attacks"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
