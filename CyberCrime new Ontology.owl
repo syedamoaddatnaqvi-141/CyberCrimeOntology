@@ -1,0 +1,1560 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#"
+     xml:base="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:smn="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ARP_Table_Poisoning_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ARP_Table_Poisoning_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Advanced_Malware_Injection_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Advanced_Malware_Injection_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malware_Injection_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Adware_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Adware_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Amplification_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Amplification_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DDoS_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Angler_Phishing_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Angler_Phishing_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Phishing_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Request_Floods_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Request_Floods_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Applicative_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Applicative_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DDoS_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Automatic_Malware_Injection_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Automatic_Malware_Injection_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malware_Injection_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Baiting_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Baiting_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Boot_Virus_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Boot_Virus_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Virus_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Brute-Force_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Brute-Force_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Cross-Site_Scripting_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Cross-Site_Scripting_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Cryptanalysis_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Cryptanalysis_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Crypto-Jacking_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Crypto-Jacking_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrime -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrime"/>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrime"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DDoS_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DDoS_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DHCP_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DHCP_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Transport_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DHCP_Starvation_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DHCP_Starvation_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DNS_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DNS_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Dictionary_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Dictionary_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Distributed_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Distributed_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DoS_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DoS_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DoS_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Email_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Email_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Email_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Espionage_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Espionage_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#HTTP_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#HTTP_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Transport_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Honey_Trap_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Honey_Trap_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Host-Based_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Host-Based_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DoS_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Http_Get_Request_Exhaustion_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Http_Get_Request_Exhaustion_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ICMP_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ICMP_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#IPsec_Flood_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#IPsec_Flood_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#IaaS_Cloud_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#IaaS_Cloud_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Identity_Theft_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Identity_Theft_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Email_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Ipv6_Fragment_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Ipv6_Fragment_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Key-Logger_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Key-Logger_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MIMT_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MIMT_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Macro_Virus_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Macro_Virus_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Virus_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Mail_Bomb_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Mail_Bomb_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Email_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Mail_Spam_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Mail_Spam_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Email_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malicious_Code_Injection_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malicious_Code_Injection_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malicious_Node_Injection_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malicious_Node_Injection_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malicious_Scripts_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malicious_Scripts_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malware_Injection_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malware_Injection_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Man-In-The-Middle_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Man-In-The-Middle_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Masquerade_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Masquerade_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Mass_Worms_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Mass_Worms_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Worms_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Memory_Resident_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Memory_Resident_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#NetworkAttacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#NetworkAttacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DoS_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Email_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Virtualization_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Virtualization_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Worms_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Worms_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Worms_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Node_Tampering_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Node_Tampering_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Non-Memory_Resident_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Non-Memory_Resident_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Packet_Sniffers_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Packet_Sniffers_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Spraying_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Spraying_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Phishing_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Phishing_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Email_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Damage_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Damage_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Pre-Texting_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Pre-Texting_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Rainbow_Table_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Rainbow_Table_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Root-Kit_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Root-Kit_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Routing_Information_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Routing_Information_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SQL_Injection_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SQL_Injection_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Sabotage_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Sabotage_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Session_Hijacking_Attack -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Session_Hijacking_Attack">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Side_Channel_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Side_Channel_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Sinkhole_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Sinkhole_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Smurf_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Smurf_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Transport_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Snooping_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Snooping_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Email_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+        <owl:disjointWith>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Email_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+                    <rdf:Description rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:disjointWith>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Spear_Phishing_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Spear_Phishing_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Phishing_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Spoofing_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Spoofing_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Spyware_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Spyware_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#TCP_SYN_Flood_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#TCP_SYN_Flood_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Transport_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Traffic_Analysis_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Traffic_Analysis_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Transport_Layer_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Transport_Layer_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#UDP_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#UDP_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Transport_Layer_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Unauthorized_Access_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Unauthorized_Access_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Virus_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Virus_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Virus_Hoax_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Virus_Hoax_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Virus_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Vishing_And_Smishing_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Vishing_And_Smishing_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Phishing_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Volumetric_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Volumetric_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DDoS_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Whaling_Phishing_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Whaling_Phishing_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Phishing_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Worms_Attacks -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Worms_Attacks">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#1stCyberCrime -->
+
+    <owl:Class rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#1stCyberCrime">
+        <rdfs:subClassOf rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrime"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ARP_TablePoisoningAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ARP_TablePoisoningAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#AdvancedMalwareInjectionAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#AdvancedMalwareInjectionAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malware_Injection_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#AdwareAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#AdwareAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#AmplificationAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#AmplificationAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DDoS_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#AnglerPhishingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#AnglerPhishingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Phishing_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ApplicationLayerAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ApplicationLayerAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ApplicationRequestFloodAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ApplicationRequestFloodAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ApplicativeAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ApplicativeAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DDoS_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#AutomaticMalwareInjectionAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#AutomaticMalwareInjectionAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malware_Injection_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#BaitingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#BaitingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#BootVirusAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#BootVirusAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Virus_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#BruteForceAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#BruteForceAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Cross-siteScriptingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Cross-siteScriptingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CryptanalysisAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CryptanalysisAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Crypto-jackingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Crypto-jackingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DDoS_Attacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DDoS_Attacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DHCP_Attacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DHCP_Attacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Transport_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DHCP_StarvationAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DHCP_StarvationAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DNS_Attacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DNS_Attacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DictionaryAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DictionaryAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DistributedAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DistributedAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DoS_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DoS_Attacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DoS_Attacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#EmailAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#EmailAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#EncryptionAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#EncryptionAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#EspionageAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#EspionageAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#HTTP_Attacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#HTTP_Attacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Transport_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#HoneyTrapAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#HoneyTrapAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#HostBasedAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#HostBasedAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DoS_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#HttpGetRequestExhaustionAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#HttpGetRequestExhaustionAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ICMP_Attacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#ICMP_Attacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#IPsecFloodAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#IPsecFloodAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#IPv6FragmentAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#IPv6FragmentAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#IaaS_CloudAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#IaaS_CloudAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#IdentityTheftAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#IdentityTheftAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#InsiderThreatAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#InsiderThreatAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#KeyLoggerAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#KeyLoggerAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MIMT_Attacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MIMT_Attacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MacroVirusAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MacroVirusAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Virus_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MailBombAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MailBombAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Email_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MailSpamAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MailSpamAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Email_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MaliciousCodeInjectionAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MaliciousCodeInjectionAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MaliciousScriptsAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MaliciousScriptsAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malicious_nodeInjectionAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Malicious_nodeInjectionAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MalwareInjectionAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MalwareInjectionAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Man-in-the-MiddleAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Man-in-the-MiddleAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MasqueradeAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MasqueradeAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MassWormAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MassWormAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Worms_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MemoryResidentAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#MemoryResidentAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#NetworkAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#NetworkAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DoS_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#NetworkBasedAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#NetworkBasedAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#NetworkLayerAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#NetworkLayerAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#NetworkVirtualizationAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#NetworkVirtualizationAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#NetworkWormAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#NetworkWormAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Worms_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Non-MemoryResidentAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Non-MemoryResidentAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#PacketSniffersAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#PacketSniffersAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#PasswordAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#PasswordAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#PasswordSprayingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#PasswordSprayingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#PhishingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#PhishingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#PhysicalAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#PhysicalAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#PhysicalDamageAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#PhysicalDamageAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Pre-TextingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Pre-TextingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Social_Engineering_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#RainbowTableAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#RainbowTableAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Password_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#RootkitAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#RootkitAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#RoutingInformationAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#RoutingInformationAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SQL_InjectionAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SQL_InjectionAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SabotageAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SabotageAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Insider_Threat_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SessionHijackingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SessionHijackingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Application_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SideChannelAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SideChannelAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Encryption_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SinkholeAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SinkholeAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SmurfAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SmurfAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Transport_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SnoopingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SnoopingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SocialEngineeringAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SocialEngineeringAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SoftwareAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SoftwareAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#CyberCrimeAttacksTypes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SpearPhishingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SpearPhishingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Phishing_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SpoofingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SpoofingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SpywareAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#SpywareAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#TCP_SYN_FloodAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#TCP_SYN_FloodAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Transport_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#TrafficAnalysisAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#TrafficAnalysisAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#TransportLayerAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#TransportLayerAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#UDP_Attacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#UDP_Attacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Transport_Layer_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#UnauthorizedAccessAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#UnauthorizedAccessAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Network_Based_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#VirusAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#VirusAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#VirusHoaxAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#VirusHoaxAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Virus_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#VishingAndSmishingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#VishingAndSmishingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Phishing_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#VolumetricAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#VolumetricAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#DDoS_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#WhalingPhishingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#WhalingPhishingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Phishing_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#WormsAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#WormsAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Software_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#nodeTamperingAttacks -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#nodeTamperingAttacks">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#Physical_Attacks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#America(US) -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#America(US)">
+        <rdf:type rdf:resource="https://github.com/syedamoaddatnaqvi-141/CyberCrimeOntology#1stCyberCrime"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
